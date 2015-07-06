@@ -14,7 +14,7 @@ def generate():
     z=2013
     while z <= 2015:
         for x in range(1,6):
-            list.append("https://xakep.ru/wp-content/uploads/2015/06/xakep_%02d_%d.pdf" %(x,z))
+            list.append("https://xakep.ru/wp-content/uploads/%02d/%d/xakep_%02d_%d.pdf" %(x,x,z,z))
         z = z + 1
     for url in list:
         print >>f, url
