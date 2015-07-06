@@ -13,7 +13,7 @@ def generate():
 # Generating links after 2013
     z=2013
     while z <= 2015:
-        for x in range(1,6):
+        for x in range(1,13):
             list.append("https://xakep.ru/wp-content/uploads/%02d/%d/xakep_%02d_%d.pdf" %(x,x,z,z))
         z = z + 1
     for url in list:
