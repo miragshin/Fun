@@ -28,7 +28,6 @@ def command():
 
 def main():
     generate()
-
-    #command()
+    command()
 
 main()
